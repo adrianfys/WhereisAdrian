@@ -37,11 +37,21 @@ body {
     background-color: rgba(0,0,0,0.4);
 }
 
+.btn-dark1 {
+    border-radius: 0;
+    color: #C0C0C0;
+    background-color: rgba(0,0,0,0.4);
+	position: relative;
+	right: 100px;
+	bottom: 20px;
+}
+
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
     background-color: rgba(0,0,0,0.7);
+	
 }
 
 .btn-light {
@@ -160,12 +170,33 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
 }
 
+.whitetext {
+	color: #fff;
+	font-family: Freestyle Script, Fallback, sans-serif;
+	font-size: 24pt;
+}
+
+.whitetext2 {
+	color: #fff;
+	font-family: Freestyle Script, Fallback, sans-serif;
+	font-size: 24pt;
+}
+
+.countup {
+	vertical-align: center-left;
+}
 /* About */
 
 .about {
     padding: 50px 0;
+}
+
+.lotr {
+	font-family: Lucida Calligraphy;
+	font-size: 15pt;
 }
 
 /* Services */
